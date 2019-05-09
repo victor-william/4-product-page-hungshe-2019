@@ -1,12 +1,71 @@
 .sidenav{
+    z-index: 20;
+}
+
+.nav-icon{
     margin-top: 35px;
+    position: relative;
 }
 
 .sidenavtext {
     font-family: 'Heebo', sans-serif;
     font-size: 30px;
+
 }
-.card-image{
-    
-    
+
+video {
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+}
+
+.video-content {
+    color: #f1f1f1;
+    z-index: 1;
+    position: absolute;
+    top:30%;
+    left: 35%;
+}
+
+.video-content1 {
+    color: #f1f1f1;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.topnav{
+    z-index: 10;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+h5{
+    color: #f0a700;
+    font-weight: bold;
 }
