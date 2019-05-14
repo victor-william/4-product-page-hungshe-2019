@@ -69,3 +69,10 @@ h5{
     color: #f0a700;
     font-weight: bold;
 }
+
+.modal{
+    color: black;
+    background-color: rgb(138, 182, 88);
+    font-size: 160%; 
+    
+}
