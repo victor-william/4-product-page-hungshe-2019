@@ -70,9 +70,35 @@ h5{
     font-weight: bold;
 }
 
+.question{
+    color:#f0a700;
+    font-weight: bold;
+}
+
 .modal{
     color: black;
     background-color: rgb(138, 182, 88);
     font-size: 160%; 
     
+}
+
+.rainforest{
+    background-color: #2e3c21;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
