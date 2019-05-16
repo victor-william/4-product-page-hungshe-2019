@@ -44,11 +44,16 @@
 
         <!-- Header -->
         <header class="w3-container" id="myHeader">
-            <h1 class="video-content w3-center" style="font-size: 7vw">Zoomies</h1>
-            <video autoplay>
+            <div class="video-content w3-center" style="margin: auto;" >
+                <h1 class="" style="color; white; font-size: 250;">Zoomies</h1>
+                <h2> Change the way you see</h2>
+
+
+            </div>
+            <video autoplay muted loop>
                 <source src = "img/Rainforest%20video.mp4" type="video/mp4">
             </video>
-
+            
             <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button sidenav video-content1  nav-icon"></i> 
             <div>
 
@@ -159,14 +164,14 @@
 
                 <div id="id01" class="w3-modal">
                     <div class="w3-modal-content">
-                        <header class="w3-container" style="background-color: rgb(138, 182, 88);"> 
+                        <header class="w3-container" style="background-color: rgb(138, 182, 88);" > 
                             <span onclick="document.getElementById('id01').style.display='none'" 
                                   class="w3-button w3-display-topright">&times;</span>
-                            <h2>Buy It Now on Amazon.com</h2>
-                        </  header>
+                            <h2><a href="https://www.amazon.com/Zoomies-13021-Hands-Free-Binoculars/dp/B00DVQF1F4" target="_blank">Buy It Now on Amazon.com</a></h2>
+                        </header>
 
                         <img src="img/betterzoomiescropped.jpg" alt="Zoomies Binoculars" class="w3-image"> 
-                        <div class="w3-container">
+                        <div class="w3-container" style="background-color: white;">
                             <h4>Price: $12.99</h4>
                             <h4>Features:</h4>
 
@@ -182,49 +187,90 @@
                 </div>
             </div>
 
+        </div>
+        <hr>
 
-            <hr>
+        <h2 class="w3-center">FAQs</h2>
+        <ul>
+            <li class="question">Q: Why choose this product over normal binoculars? </li>
+            <p>A: Zoomies are much more convenient, cheaper, and easy to use compared to other binoculars on the market. Zoomies are also certified Made in the USA so you can sleep well knowing that the Chinese don't make a single cent.</p>
+            <li class="question">Q: Can you see well with glasses on?</li>
+            <p>A: Zoomies work perfectly well with prescriptions of any type, including contact lenses and bifocals.</p>
+            <li class="question">Q: What can this product be used to see?</li>
+            <p>A: This product can be used to see far away things just like any high-quality binocular. If you try hard enough, Zoomies can also reach deep into the darkest pits of your soul and other dimensions. </p>
+        </ul>
 
-            <h2 class="w3-center">FAQs</h2>
-            <ul>
-                <li class="question">Q: Why choose this product over normal binoculars? </li>
-                <p>A: Zoomies are much more convenient, cheaper, and easy to use compared to other binoculars on the market. Zoomies are also certified Made in the USA so you can sleep well knowing that the Chinese don't make a single cent.</p>
-                <li class="question">Q: Can you see well with glasses on?</li>
-                <p>A: Zoomies work perfectly well with prescriptions of any type, including contact lenses and bifocals.</p>
-                <li class="question">Q: What can this product be used to see?</li>
-                <p>A: This product can be used to see far away things just like any high-quality binocular. If you try hard enough, Zoomies can also reach deep into the darkest pits of your soul and other dimensions. </p>
-            </ul>
+        <div>
+            <form class="w3-container w3-card-4">
+                <h4>Do you have a question?</h4>
+                <div class="w3-section">      
+                    <input class="w3-input" type="text" required>
+                    <label>Name</label>
+                </div>
+                <div class="w3-section">      
+                    <input class="w3-input" type="text" required>
+                    <label>Email</label>
+                </div>
+                <div class="w3-section">      
+                    <input class="w3-input" type="text" required>
+                    <label>Question</label>
+                </div>
+                <div class="w3-center" style="padding: 0px 0px 10px 0px;"><a class="w3-button w3-theme ">Send Response</a></div>
+            </form>
+        </div>
 
-            <div>
-                <form class="w3-container w3-card-4">
-                    <h4>Do you have a question?</h4>
-                    <div class="w3-section">      
-                        <input class="w3-input" type="text" required>
-                        <label>Name</label>
+        <hr>
+        <h2 class="w3-center">About Our Designers</h2>
+        <div class="w3-row-padding">
+
+            <div class="w3-half">
+                <div class="w3-card white">
+                    <div class="w3-container w3-theme">
+                        <h3>Victor She</h3>
                     </div>
-                    <div class="w3-section">      
-                        <input class="w3-input" type="text" required>
-                        <label>Email</label>
+                    <div class="w3-border-top">
+                        <p>Place holder</p>
                     </div>
-                    <div class="w3-section">      
-                        <input class="w3-input" type="text" required>
-                        <label>Question</label>
+                </div>
+            </div>
+
+            <div class="w3-half">
+                <div class="w3-card white">
+                    <div class="w3-container w3-theme">
+                        <h3>Victor She</h3>
                     </div>
-                    <div class="w3-center" style="padding: 0px 0px 10px 0px;"><a class="w3-button w3-theme ">Send Response</a></div>
-                </form>
+                    <div class="w3-border-top">
+                        <p>Place holder</p>
+                    </div>
+                </div>
             </div>
 
             <hr>
-            <h2 class="w3-center">About Our Designers</h2>
+            <h2 class="w3-center">Compare Our Product</h2>
             <div class="w3-row-padding">
 
                 <div class="w3-half">
                     <div class="w3-card white">
                         <div class="w3-container w3-theme">
-                            <h3>Victor She</h3>
+                            <h3>Zoomies</h3>
                         </div>
-                        <div class="w3-border-top">
-                            <p>Place holder</p>
+                        <div class="w3-border-top w3-center">
+                            <img src="img/betterzoomiescropped.jpg" alt="Zoomies Binoculars" class="w3-image ">
+                            <table>
+                                <tr>
+                                    <td style ="font-weight: bold;">Price</td>
+                                    <td>$12.99</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Size</td>
+                                    <td>11x7x2 in</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Weight</td>
+                                    <td>4.8 lbs</td>
+                                </tr>
+                            </table>
+
                         </div>
                     </div>
                 </div>
@@ -232,158 +278,36 @@
                 <div class="w3-half">
                     <div class="w3-card white">
                         <div class="w3-container w3-theme">
-                            <h3>Victor She</h3>
+                            <h3>Gosky Titan Binoculars</h3>
                         </div>
-                        <div class="w3-border-top">
-                            <p>Place holder</p>
-                        </div>
-                    </div>
-                </div>
+                        <div class="w3-border-top w3-center">
+                            <img src="img/gos.jpg" alt="Zoomies Binoculars" class="w3-image">
 
-                <hr>
-                <h2 class="w3-center">Compare Our Product</h2>
-                <div class="w3-row-padding">
-
-                    <div class="w3-half">
-                        <div class="w3-card white">
-                            <div class="w3-container w3-theme">
-                                <h3>Zoomies</h3>
-                            </div>
-                            <div class="w3-border-top w3-center">
-                                <img src="img/betterzoomiescropped.jpg" alt="Zoomies Binoculars" class="w3-image ">
-                                <table>
-                                    <tr>
-                                        <td style ="font-weight: bold;">Price</td>
-                                        <td>$12.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: bold;">Size</td>
-                                        <td>11x7x2 in</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: bold;">Weight</td>
-                                        <td>4.8 lbs</td>
-                                    </tr>
-                                </table>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-half">
-                        <div class="w3-card white">
-                            <div class="w3-container w3-theme">
-                                <h3>Gosky Titan Binoculars</h3>
-                            </div>
-                            <div class="w3-border-top w3-center">
-                                <img src="img/gos.jpg" alt="Zoomies Binoculars" class="w3-image">
-
-                                <table>
-                                    <tr>
-                                        <td style="font-weight: bold;">Price</td> <td>$149.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: bold;">Size</td> <td>7.5x16.5x12.2 in</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: bold;">Weight</td>
-                                        <td>5 lbs</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="w3-center">Our product is cheaper, smaller, lighter, and better!!!</h4>
-
-
-                    <h2 class="w3-center">Tabs</h2>
-                    <div class="w3-border">
-                        <div class="w3-bar w3-theme">
-                            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'London')">London</button>
-                            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">Paris</button>
-                            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')">Tokyo</button>
-                        </div>
-
-                        <div id="London" class="w3-container city w3-animate-opacity">
-                            <h2>London</h2>
-                            <p>London is the capital city of England.</p>
-                            <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-                        </div>
-
-                        <div id="Paris" class="w3-container city w3-animate-opacity">
-                            <h2>Paris</h2>
-                            <p>Paris is the capital of France.</p> 
-                            <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
-                        </div>
-
-                        <div id="Tokyo" class="w3-container city w3-animate-opacity">
-                            <h2>Tokyo</h2>
-                            <p>Tokyo is the capital of Japan.</p>
-                            <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
-                        </div>
-                    </div>
-
-                    <hr>
-                    <h2 class="w3-center">Buttons</h2>
-                    <div class="w3-center">
-                        <br>
-                        <a class="w3-button w3-theme">Button</a>
-                        <a class="w3-button w3-theme">Button</a>
-                        <a class="w3-button w3-theme-d3 w3-disabled">Button</a>
-                        <br><br>
-                        <a class="w3-button w3-circle w3-large w3-black"><i class="fa fa-plus"></i></a>
-                        <a class="w3-button w3-circle w3-large w3-theme"><i class="fa fa-plus"></i></a>  
-                        <a class="w3-button w3-circle w3-large w3-card-4"><i class="fa fa-plus"></i></a>
-                    </div>
-                    <br>
-                    <div class="w3-center">
-                        <div class="w3-dropdown-hover">
-                            <button class="w3-button w3-theme">Dropdown <i class="fa fa-caret-down"></i></button>
-                            <div class="w3-dropdown-content w3-bar-block w3-border">
-                                <a href="#" class="w3-bar-item w3-button">Link 1</a>
-                                <a href="#" class="w3-bar-item w3-button">Link 2</a>
-                                <a href="#" class="w3-bar-item w3-button">Link 3</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <hr>
-                <div class="w3-center">
-                    <h2>Pagination</h2>
-                    <!-- Pagination -->
-                    <div class="w3-center w3-padding-32">
-                        <div class="w3-bar">
-                            <a href="#" class="w3-bar-item w3-button w3-hover-theme">«</a>
-                            <a href="#" class="w3-bar-item w3-button w3-theme w3-hover-theme">1</a>
-                            <a href="#" class="w3-bar-item w3-button w3-hover-theme">2</a>
-                            <a href="#" class="w3-bar-item w3-button w3-hover-theme">3</a>
-                            <a href="#" class="w3-bar-item w3-button w3-hover-theme">4</a>
-                            <a href="#" class="w3-bar-item w3-button w3-hover-theme">5</a>
-                            <a href="#" class="w3-bar-item w3-button w3-hover-theme">»</a>
+                            <table>
+                                <tr>
+                                    <td style="font-weight: bold;">Price</td> <td>$149.99</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Size</td> <td>7.5x16.5x12.2 in</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">Weight</td>
+                                    <td>5 lbs</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
-                <br>
-
-                <!-- Footer -->
-                <footer class="w3-container w3-theme-dark w3-padding-16">
-                    <h3>Footer</h3>
-                    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-                    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-                        <span class="w3-text w3-theme-light w3-padding">Go To Top</span>    
-                        <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-                            <i class="fa fa-chevron-circle-up"></i></span></a>
-                    </div>
-                    <p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
-                </footer>
+                <h4 class="w3-center">Our product is cheaper, smaller, lighter, and better!!!</h4>
+            </div>
+        </div>
 
 
-                <!--Javascript-->
-                <script src="js/nav.js"></script>
-                <script src="js/accordion.js"></script>
-                </body>
-            </html>
+
+        <!--Javascript-->
+        <script src="js/nav.js"></script>
+        <script src="js/accordion.js"></script>
+    </body>
+</html>
 
 
