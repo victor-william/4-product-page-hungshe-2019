@@ -119,8 +119,13 @@ tr:nth-child(even) {
     z-index:0;
 }
 
+
 .title{
     font-family: 'Noto Serif', serif;
+    background-color: #8AB658;  
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 5px;
 }
 
 
